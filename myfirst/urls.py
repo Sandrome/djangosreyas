@@ -8,5 +8,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     re_path(r'^$', views.home, name='home'),
     re_path(r'^employee/(\d+)/', views.employee_detail, name='employee_details'),
-    re_path('submit_form/', views.submission_form, name='submission'),
+    #re_path('submit_form/', views.submission_form, name='submission'),
 ]
