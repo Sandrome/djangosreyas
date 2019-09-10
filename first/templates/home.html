@@ -1,0 +1,9 @@
+<div>
+    {% for employee in employees %}
+    <div class="employeename">
+        <a href="{% url 'employee_detail' employee.id %}">
+            <h3>{{ employee.name|capfirst }}</h3>
+        </a>
+        <p>{{ employee.role }}</p>
+    </div>
+</div>
