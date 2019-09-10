@@ -2,9 +2,9 @@
     {% for employee in employees %}
     <div class="employeename">
         <a href="{% url 'employee_detail' employee.id %}">
-            <h3>{{ employee.firstname|capfirst }}</h3>
+            <h3>{{ employee.Firstname|capfirst }}</h3>
         </a>
-        <p>{{ employee.role }}</p>
+        <p>{{ employee.Role }}</p>
     {% endfor %}
     </div>
 </div>
