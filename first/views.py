@@ -6,7 +6,7 @@ from .models import Employee
 
 def home(request):
     employees = Employee.objects.all()
-    return render(request, 'home.html', {'employees': employees})
+    return render(request, 'home.html', {'emp': 'employees'})
 
 def employee_detail(request, id):
     try:

@@ -1,8 +1,7 @@
 <div>
-    {{emp = employees[0]}}
     <div class="employeename">
         <a href="{% url 'employee_detail' emp.id %}">
-            <h3>{{ emp.firstname|capfirst }}</h3>
+            <h3>{{ emp.firstname }}</h3>
         </a>
         <p></p>
     </div>
