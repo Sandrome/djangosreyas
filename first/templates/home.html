@@ -1,9 +1,9 @@
 <div>
+    
     <div class="employeename">
-        <a href="{% url 'employee_detail' emp.id %}">
-            <h3>{{ emp1 = 'hello' }}</h3>
-            <h3>{{ emp1 }}</h3>
-        </a>
+        {% for i in emp %}
+            <h3>{{ emp.id }}</h3>
+        {% endfor %}
         <p></p>
     </div>
 </div>
