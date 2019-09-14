@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ['sreyas-staging.herokuapp.com','sreyas-production.herokuapp.com
 # Application definition
 
 INSTALLED_APPS = [
+    
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
