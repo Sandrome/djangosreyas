@@ -14,3 +14,6 @@ def employee_detail(request, id):
     except Employee.DoesNotExist:
         raise Http404('Employee does not exist')
     return render(request, 'employee_detail.html', {'employee': employee})    
+
+def emp_form(request):
+    return render(request, 'emp_form.html')
