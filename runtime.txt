@@ -1,1 +1,1 @@
-python3-minimal-3.4.0-0
+python3-minimal-3.6.7-1
